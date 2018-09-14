@@ -1,0 +1,44 @@
+body {
+    background: #81bcd8;
+}
+
+.site-header {
+    background: #fff;
+    display: flex;
+    padding: 60px 20px;
+    position: fixed;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.site-logo img {
+    height: 20px;
+    width: auto;
+}
+
+.gnav__menu {
+    display: flex;
+}
+
+.gnav__menu__item {
+    margin-left: 30px;
+}
+
+.gnav__menu__item a {
+    color: #333;
+    text-decoration: none;
+}
+
+.thumbnail img {
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+.name {
+    position: absolute;
+    top: 300px;
+}
