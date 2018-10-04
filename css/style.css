@@ -1,19 +1,84 @@
 body {
-    background: #81bcd8;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+body {
+    background: whitesmoke;
+    font-size: 1.4rem;
+    padding: 20px 80px 0 80px;
+    font-family: Meiryo;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }
 
 .site-header {
     background: #fff;
     display: flex;
     padding: 60px 20px;
-    position: fixed;
     justify-content: space-between;
-    width: 100%;
 }
 
-.site-logo img {
-    height: 20px;
-    width: auto;
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tmp {
+    flex: 1
+}
+
+.profile {
+    margin: 50px 0px 0px 10px;
+    flex: 1
+}
+
+.main profile h1 {
+    font-family: 'Sofia', cursive;
+    margin: 10px 0px 30px;
+}
+
+.profile h2 {
+    font-family: 'Sofia', cursive;
+    font-size: 4rem;
+    margin: 0px 0px 30px;
+}
+
+.profile img {
+    border-radius: 100%;
+    width: 65px;
+    height: 65px;
+    position: relative;
+    top: 0px;
+    left: 30px;
+}
+
+.profile h2,
+.profile img {
+    float: left;
+}
+
+.profile p {
+    clear: both;
+    line-height: 2rem;
+}
+
+a {
+    position: relative;
+    display: inline-block;
+    color: rgba(0, 169, 221, 0.644);
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom-style: solid;
+    /*点線の種類*/
+    border-bottom-color: #0bd;
+    /*点線の色*/
+    border-bottom-width: 2px;
+    /*点の大きさ*/
+    color: #0bd;
 }
 
 .gnav__menu {
@@ -29,16 +94,8 @@ body {
     text-decoration: none;
 }
 
-.thumbnail img {
-    position: absolute;
-    top: 300px;
-    left: 50px;
-    border-radius: 20px;
-    height: 40px;
-    width: 40px;
-}
-
-.name {
-    position: absolute;
-    top: 300px;
+.footer {
+    margin-top: auto;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
 }
