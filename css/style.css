@@ -64,14 +64,14 @@ body {
     line-height: 2rem;
 }
 
-a {
+.profile a {
     position: relative;
     display: inline-block;
     color: rgba(0, 169, 221, 0.644);
     text-decoration: none;
 }
 
-a:hover {
+.profile a:hover {
     border-bottom-style: solid;
     /*点線の種類*/
     border-bottom-color: #0bd;
@@ -95,7 +95,57 @@ a:hover {
 }
 
 .footer {
-    margin-top: auto;
+    margin: 150px 0 0 10px;
     font-size: 1.4rem;
     letter-spacing: 1px;
+}
+
+.follow-me li {
+    margin: 0 8px 8px 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+}
+
+.follow-me li a::before {
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 16px;
+    height: 44px;
+    /* Button height */
+    line-height: 44px;
+    /* Button height */
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    text-align: center;
+    width: 44px;
+    /* Button width */
+}
+
+.follow-me li a:hover::before {
+    opacity: 0.7;
+}
+
+.follow-me li a[href*="facebook.com"]::before {
+    background-color: #3b5998;
+    content: "\f09a";
+}
+
+.follow-me li a[href*="github.com"]::before {
+    background-color: #181717;
+    content: "\f09b";
+}
+
+.follow-me li a {
+    flex: 5;
+    text-align: right
+}
+
+.follow-me li p {
+    padding: 10px 0 0 0;
+    flex: 5;
+    text-align: left
 }
