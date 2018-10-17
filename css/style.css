@@ -4,9 +4,8 @@ body {
 }
 
 body {
-    background: whitesmoke;
+    background-color: #e67e22;
     font-size: 1.4rem;
-    padding: 20px 80px 0 80px;
     font-family: Meiryo;
     display: flex;
     flex-direction: column;
@@ -14,10 +13,8 @@ body {
 }
 
 .site-header {
-    background: #fff;
-    display: flex;
-    padding: 60px 20px;
-    justify-content: space-between;
+    font-size: 3rem;
+    background-color: #2c3e50;
 }
 
 .main {
@@ -30,8 +27,10 @@ body {
 }
 
 .profile {
-    margin: 50px 0px 0px 10px;
-    flex: 1
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+    flex: 1;
+    border: solid #2c3e50;
 }
 
 .main profile h1 {
@@ -98,10 +97,11 @@ body {
     margin: 150px 0 0 10px;
     font-size: 1.4rem;
     letter-spacing: 1px;
+    border: solid #2c3e50;
 }
 
 .follow-me li {
-    margin: 0 8px 8px 0;
+    margin: 5px 8px 8px 5px;
     padding: 0;
     text-align: center;
     display: flex;
@@ -145,7 +145,8 @@ body {
 }
 
 .follow-me li p {
-    padding: 10px 0 0 0;
+    padding: 10px 0 0 10px;
     flex: 5;
-    text-align: left
+    text-align: left;
+    color: #2c3e50;
 }

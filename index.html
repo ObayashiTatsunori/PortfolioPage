@@ -9,26 +9,22 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- Bootstrapの読み込み --><link href="css/vendor/bootstrap.min.css" rel="stylesheet"><!-- Flat-UIの読み込み --><link href="css/flat-ui.css" rel="stylesheet"><!-- 旧バージョンIE用 --><!--[if lt IE 9]><script src="js/vendor/html5shiv.js"></script><script src="js/vendor/respond.min.js"></script><![endif]-->
 </head>
 
 <body>
     <header class="site-header">
         <!--    <h1 class="site-logo"><img src="images/logo.png" alt="WEBDESIGNDAY"></h1>-->
-        <nav class="gnav">
-            <ul class="gnav__menu">
-                <li class="gnav__menu__item"><a href="">About</a></li>
-                <li class="gnav__menu__item"><a href="">Works</a></li>
-                <li class="gnav__menu__item"><a href="">Recruit</a></li>
-                <li class="gnav__menu__item"><a href="">News</a></li>
-                <li class="gnav__menu__item"><a href="">Contact</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-default navbar-expand-lg" role="navigation">
+              <ul class="nav navbar-nav mr-auto site-header">
+                <li><a href="#profile">About</a></li>
+                <li><a href="#fakelink">Works</a></li>
+                <li><a href="#fakelink">Contact</a></li>
+              </ul>
+          </nav><!-- /navbar -->
     </header>
     <main class="main">
-        <div class="tmp">
-            <P>ああああああ</P>
-        </div>
-        <div class="profile">
+        <div class="profile" id="profile">
             <section>
                 <h1 class="profession">System Engineer</h1>
                 <h2 class="name">
