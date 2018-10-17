@@ -4,7 +4,18 @@ body {
 }
 
 body {
-    background-color: #e67e22;
+    /* 画像ファイルの指定 */
+    background-image: url(images/background-photo.jpg);
+    /* 画像を常に天地左右の中央に配置 */
+    background-position: center center;
+    /* 画像をタイル状に繰り返し表示しない */
+    background-repeat: no-repeat;
+    /* コンテンツの高さが画像の高さより大きい時、動かないように固定 */
+    background-attachment: fixed;
+    /* 表示するコンテナの大きさに基づいて、背景画像を調整 */
+    background-size: cover;
+    /* 背景画像が読み込まれる前に表示される背景のカラー */
+    background-color: #464646;
     font-size: 1.4rem;
     font-family: Meiryo;
     display: flex;
@@ -20,10 +31,11 @@ body {
     display: inline-block;
     text-align: center;
 }
-.site-header a{
+
+.site-header a {
     width: 200px;
     height: 80px;
-    padding: 30px;s
+    padding: 30px;
 }
 
 .main {
@@ -38,16 +50,20 @@ body {
 }
 
 .profile {
-    margin: 10px 10px 10px 10px;
+    margin: 150px 10px 10px 10px;
     padding: 5px 5px 5px 5px;
     flex: 1;
     text-align: center;
-
 }
 
 .main profile h1 {
     font-family: 'Sofia', cursive;
     margin: 10px 0px 30px;
+}
+
+.name-content {
+    display: flex;
+    justify-content: center;
 }
 
 .profile h2 {
@@ -106,15 +122,14 @@ body {
 }
 
 .footer {
-    margin: 150px 0 0 10px;
     font-size: 1.4rem;
     letter-spacing: 1px;
-    border: solid #2c3e50;
+    background-color: #2c3e50;
 }
 
 .follow-me li {
     margin: 5px 8px 8px 5px;
-    padding: 0;
+    padding: 10px;
     text-align: center;
     display: flex;
 }
@@ -160,5 +175,16 @@ body {
     padding: 10px 0 0 10px;
     flex: 5;
     text-align: left;
-    color: #2c3e50;
+    color: #ecf0f1;
+}
+
+.travel {
+    height: 100%;
+    width: 100%;
+    /* 画像ファイルの指定 */
+    background-image: url(../image/DSC_0188.jpg);
+    /* 画像をタイル状に繰り返し表示しない */
+    background-repeat: no-repeat;
+    /* 背景画像が読み込まれる前に表示される背景のカラー */
+    background-color: #464646;
 }
