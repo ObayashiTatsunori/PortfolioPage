@@ -4513,8 +4513,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
 }
 
 .navbar-nav > li > a {
-  font-size: 16px;
-  padding: 15px 0;
+  font-size: 20px;
   line-height: 23px;
   font-weight: 700;
   position: relative;
