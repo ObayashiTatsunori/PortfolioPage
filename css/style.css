@@ -84,18 +84,18 @@ body {
 .profile a {
     position: relative;
     display: inline-block;
-    color: #2ecc71;
+    color: #16a085;
     text-decoration: none;
 }
 
 .profile a:hover {
     border-bottom-style: solid;
     /*点線の種類*/
-    border-bottom-color: #2ecc71;
+    border-bottom-color: #16a085;
     /*点線の色*/
     border-bottom-width: 2px;
     /*点の大きさ*/
-    color: #2ecc71;
+    color: #16a085;
 }
 
 .gnav__menu {
