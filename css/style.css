@@ -84,18 +84,18 @@ body {
 .profile a {
     position: relative;
     display: inline-block;
-    color: rgba(0, 169, 221, 0.644);
+    color: #2ecc71;
     text-decoration: none;
 }
 
 .profile a:hover {
     border-bottom-style: solid;
     /*点線の種類*/
-    border-bottom-color: #0bd;
+    border-bottom-color: #2ecc71;
     /*点線の色*/
     border-bottom-width: 2px;
     /*点の大きさ*/
-    color: #0bd;
+    color: #2ecc71;
 }
 
 .gnav__menu {
@@ -239,7 +239,8 @@ body {
 }
 
 .Like {
-    height: 2079px;
+    height: 3120px;
+    width: 100%;
     color: #ecf0f1;
 }
 
@@ -250,22 +251,25 @@ body {
 
 .golf {
     text-align: right;
-    padding: 50px 50px 0 0;
-    height: 695px;
+    padding: 100px 50px 0 0;
+    height: 1040px;
+    width: 100%;
     background-image: url("../image/DSC_0010.jpg");
 }
 
 .climbing {
-    padding: 250px 0 0 50px;
-    height: 695px;
-    background-image: url("../image/20181020150848.jpg");
+    padding: 500px 0 0 50px;
+    height: 1040px;
+    width: 100%;
+    background-image: url("../image/DSC_0061.jpg");
 }
 
 .travel {
-    padding: 500px 50px 0 0;
+    padding: 850px 50px 0 0;
     text-align: right;
-    height: 689px;
-    background-image: url("../image/20181020144545.jpg");
+    height: 1040px;
+    width: 100%;
+    background-image: url("../image/DSC_0182.jpg");
 }
 
 .space {
