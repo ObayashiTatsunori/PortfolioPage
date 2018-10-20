@@ -16,18 +16,22 @@ body {
     height: 80px;
     display: inline-block;
     text-align: center;
+    filter: alpha(opacity=100);
+    -moz-opacity: 1;
+    opacity: 1;
+    position: fixed;
 }
 
 .site-header a {
     width: 200px;
     height: 80px;
-    padding: 30px;
+    padding: 40px;
 }
 
 .main {
     display: flex;
     flex-wrap: wrap;
-    height: 900px;
+    height: 1000px;
     background-color: #f1c40f;
 }
 
@@ -186,7 +190,7 @@ body {
 }
 
 .scroll {
-    margin: 100px;
+    margin: 200px;
 }
 
 .scroll a {
