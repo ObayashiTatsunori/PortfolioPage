@@ -41,7 +41,7 @@ body {
 
 .profile {
     margin: 150px 10px 10px 10px;
-    padding: 100px 5px 5px 5px;
+    padding: 80px 5px 5px 5px;
     flex: 1;
     text-align: center;
 }
@@ -236,4 +236,39 @@ body {
     40% {
         transform: rotate(-45deg) translate(0, 0);
     }
+}
+
+.Like {
+    height: 2079px;
+    color: #ecf0f1;
+}
+
+.Like h2 {
+    margin: 0%;
+    font-family: 'Sofia', cursive;
+}
+
+.golf {
+    text-align: right;
+    padding: 50px 50px 0 0;
+    height: 695px;
+    background-image: url("../image/DSC_0010.jpg");
+}
+
+.climbing {
+    padding: 250px 0 0 50px;
+    height: 695px;
+    background-image: url("../image/20181020150848.jpg");
+}
+
+.travel {
+    padding: 500px 50px 0 0;
+    text-align: right;
+    height: 689px;
+    background-image: url("../image/20181020144545.jpg");
+}
+
+.space {
+    height: 80px;
+    background-color: #f1c40f;
 }
